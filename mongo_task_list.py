@@ -2,8 +2,7 @@ import pymongo
 
 from pymongo import MongoClient
 from bson.objectid import ObjectId
-
-client = MongoClient("mongodb://greg:happy121@ds221258.mlab.com:21258/cloudapps")
+client = MongoClient("mongodb://hiffin:67524106@ds121238.mlab.com:21238/cloudapps")
 
 db = client.cloudapps
 current_tasks = db.current_tasks
